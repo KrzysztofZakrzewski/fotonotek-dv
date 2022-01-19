@@ -17,8 +17,13 @@
 </head>
 
 <body>
-  <nav class="navbar">
+  <a class="skip-to-about" href="#home">
+    Pomiń nawigację
+  </a>
 
+
+
+  <nav class="navbar">
     <a class="navbar-brand" href="#"><i class="fas fa-camera"></i> <span class="logo">Fotonotek.pl</span></a>
 
     <ul class="nav-list" id="nav-list">
@@ -44,86 +49,84 @@
       <div class="burger-line"></div>
       <div class="burger-line"></div>
     </div>
-
-
-
   </nav>
 
   <header class="section-header section" id="home">
-    <div class="hero-img-header hero-img-all"  alt="mężczyzna na motocyklu">
+    <div class="hero-img-header hero-img-all" alt="mężczyzna na motocyklu">
       <!-- <div class="hero-img-header-shawod"></div> -->
       <div class="hero-text-header">
         <h1 class="h1-header">Witam na <span class="red-text">Fotonotek</span>.pl</h1>
         <p class="info-header">gdzie połączyłem <span class="red-text">dwie</span>
           pasje</p>
-          <a href="#about" type="button" class="btn-header">Zapraszam</a>
-        </div>
-        <a href="#about">
-          <i class="fas fa-chevron-down"></i>
-        </a>
-    </div>
-
-
-  </header>
-
-  <section class="about" id="about">
-    <div class="wrapper">
-      <h2 class="caption">O mnie</h2>
-      <div class="underline"></div>
-      <div class="columns">
-
-        <div class="card-about" data-aos="fade-up" data-aos-delay="100">
-          <p class="about__title"><i class="fas fa-camera-retro"></i></p>
-          <p class="about__text">Jestem fotografem. To pierwsza z moich pasji, którą wciąż rozwijam. Jest tam co
-            robić!
-          </p>
-        </div>
-
-        <div class="card-about" data-aos="fade-up" data-aos-delay="200">
-          <p class="about__title"><i class="fas fa-motorcycle" data-aos="fade-right" data-aos-delay="1000"></i></p>
-          <p class="about__text">Druga miłość to motoryzacja i motocykle.</p>
-        </div>
-        <div class="card-about" data-aos="fade-up" data-aos-delay="300">
-          <p class="about__title"><i class="fas fa-football-ball"></i></p>
-          <p class="about__text">Prowadzę też sesje fotograficzne różych eventów w tym także sportowych.</p>
-        </div>
+      <a href="#about" type="button" class="btn-header">Zapraszam</a>
       </div>
-    </div>
-  </section>
-
-
-  <section class="about-hero">
-    <div class="about-hero-img">
-     
-      <div class="wrapper">
-        <h2 class="caption-mono">Oprócz tego</h2>
-        <div class="underline"></div>
-        <div class="columns-shadow">
-          <div class="card-about-hero" data-aos="fade-up" data-aos-delay="400"  alt="mężczyzna na motocyklu cross-owym">
-            <p class="about__title"><i class="fas fa-flag-checkered"></i></p>
-            <p class="about__text">Jestem testerem. Często testuje nowy sprzęt oraz motocykle znanych marek.</p>
-          </div>
-          <div class="card-about-hero" data-aos="fade-up" data-aos-delay="500">
-            <p class="about__title"><i class="fab fa-youtube"></i></p>
-            <p class="about__text">Posiadam takarze kanał YouTube, na którym dziele się doświatczeniami i
-              spostrzeżeniami
-              z jazdy.</p>
-          </div>
-        </div>
-      </div>
-      <a href="#portfolio">
+      <a href="#about" class="chevron">
         <i class="fas fa-chevron-down"></i>
       </a>
     </div>
 
 
-  </section>
+  </header>
+  <main id="main-content">
+    <section class="about" id="about">
+      <div class="wrapper">
+        <h2 class="caption">O mnie</h2>
+        <div class="underline"></div>
+        <div class="columns">
+
+          <div class="card-about" data-aos="fade-up" data-aos-delay="100">
+            <p class="about__title"><i class="fas fa-camera-retro"></i></p>
+            <p class="about__text">Jestem fotografem. To pierwsza z moich pasji, którą wciąż rozwijam. Jest tam co
+              robić!
+            </p>
+          </div>
+
+          <div class="card-about" data-aos="fade-up" data-aos-delay="200">
+            <p class="about__title"><i class="fas fa-motorcycle" data-aos="fade-right" data-aos-delay="1000"></i></p>
+            <p class="about__text">Druga miłość to motoryzacja i motocykle.</p>
+          </div>
+          <div class="card-about" data-aos="fade-up" data-aos-delay="300">
+            <p class="about__title"><i class="fas fa-football-ball"></i></p>
+            <p class="about__text">Prowadzę też sesje fotograficzne różych eventów w tym także sportowych.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="about-hero">
+      <div class="about-hero-img">
+
+        <div class="wrapper">
+          <h2 class="caption-mono">Oprócz tego</h2>
+          <div class="underline"></div>
+          <div class="columns-shadow">
+            <div class="card-about-hero" data-aos="fade-up" data-aos-delay="400"
+              alt="mężczyzna na motocyklu cross-owym">
+              <p class="about__title"><i class="fas fa-flag-checkered"></i></p>
+              <p class="about__text">Jestem testerem. Często testuje nowy sprzęt oraz motocykle znanych marek.</p>
+            </div>
+            <div class="card-about-hero" data-aos="fade-up" data-aos-delay="500">
+              <p class="about__title"><i class="fab fa-youtube"></i></p>
+              <p class="about__text">Posiadam takarze kanał YouTube, na którym dziele się doświatczeniami i
+                spostrzeżeniami
+                z jazdy.</p>
+            </div>
+          </div>
+        </div>
+        <a href="#portfolio">
+          <i class="fas fa-chevron-down"></i>
+        </a>
+      </div>
+
+
+    </section>
 
 
 
-  <section class="section" id="portfolio"></section>
-  <section class="section"></section>
-
+    <section class="section" id="portfolio"></section>
+    <section class="section"></section>
+  </main>
   <script src="dist/js/script.min.js"></script>
 
 </body>
